@@ -1,0 +1,47 @@
+body {
+  background: $violet;
+}
+.red {
+  background: $red;
+}
+.orange {
+  background: $orange;
+}
+.yellow {
+  background: $yellow;
+}
+.green {
+  background: $green;
+}
+.blue {
+  background: $blue;
+}
+
+.results-btn {
+  @include link-transition(750ms);
+  width: 250px;
+  height: 50px;
+  line-height: 40px;
+  padding: 5px 10px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  margin: 5% auto 0 auto;
+  font-weight: 700;
+  font-size: 1.5em;
+  border-radius: 6px;
+  color: $white;
+  background: $violet;
+  border: 2px solid $white;
+  &:active, &:focus, &:hover {
+    text-decoration: none;
+    color: $violet;
+    background: $white;
+    border: 2px solid $violet;
+  }
+  &:visited {
+    color: $white;
+    background: $violet;
+  }
+}

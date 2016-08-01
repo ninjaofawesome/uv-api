@@ -1,0 +1,71 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300; }
+
+.title,
+.subtitle,
+.uv-display,
+.comment {
+  text-align: center;
+  color: white; }
+
+.title {
+  margin-top: 10%;
+  font-size: 8vw; }
+
+.subtitle {
+  font-size: 5vw; }
+
+.uv-display {
+  font-size: 15vw; }
+
+body {
+  background: #be33ff; }
+
+.red {
+  background: #ff3333; }
+
+.orange {
+  background: #ff9c33; }
+
+.yellow {
+  background: #fcff33; }
+
+.green {
+  background: #46ff33; }
+
+.blue {
+  background: #334cff; }
+
+.results-btn {
+  -webkit-transition: background-color 750ms ease;
+  -moz-transition: background-color 750ms ease;
+  -o-transition: background-color 750ms ease;
+  transition: background-color 750ms ease;
+  width: 250px;
+  height: 50px;
+  line-height: 40px;
+  padding: 5px 10px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  margin: 5% auto 0 auto;
+  font-weight: 700;
+  font-size: 1.5em;
+  border-radius: 6px;
+  color: white;
+  background: #be33ff;
+  border: 2px solid white; }
+  .results-btn:active, .results-btn:focus, .results-btn:hover {
+    text-decoration: none;
+    color: #be33ff;
+    background: white;
+    border: 2px solid #be33ff; }
+  .results-btn:visited {
+    color: white;
+    background: #be33ff; }
